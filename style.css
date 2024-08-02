@@ -23,10 +23,10 @@ body {
 /* Cabeçalho */
 /* Cabeçalho */
 header {
-    background: #0066ff;
-    color: #ff0000;
+    background: #001aff;
+    color: #ffffff;
     padding: 10px 0;
-    border-radius: 0 0 20px 20px; /* Arredonda as pontas inferiores do cabeçalho */
+    border-radius: 0 0 15px 15px; /* Arredonda as pontas inferiores do cabeçalho */
     margin: 0 0 20px 0; /* Adiciona uma margem inferior para separar o cabeçalho do restante do conteúdo */
     overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites arredondados */
 }
