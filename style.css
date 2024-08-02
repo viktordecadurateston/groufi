@@ -23,8 +23,8 @@ body {
 /* Cabeçalho */
 /* Cabeçalho */
 header {
-    background: #333;
-    color: #fff;
+    background: #0066ff;
+    color: #ff0000;
     padding: 10px 0;
     border-radius: 0 0 20px 20px; /* Arredonda as pontas inferiores do cabeçalho */
     margin: 0 0 20px 0; /* Adiciona uma margem inferior para separar o cabeçalho do restante do conteúdo */
