@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Academia Groufi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .produto {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: auto;
+        }
+        .produto h3 {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        .produto p {
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="Imagens/logo_Groufi.png" alt="logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="horarios.html">Horários</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="Imagens/produto1.jpg" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>Descrição breve do Produto 1. Ideal para quem busca qualidade e desempenho.</p>
+                </div>
+                <div class="produto">
+                    <img src="Imagens/produto2.jpg" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>Descrição breve do Produto 2. Confortável e resistente para o seu dia a dia.</p>
+                </div>
+                <div class="produto">
+                    <img src="Imagens/produto3.jpg" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>Descrição breve do Produto 3. Perfeito para quem busca inovação e estilo.</p>
+                </div>
+                <!-- Adicione mais produtos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Academia Groufi. Todos os direitos reservados.</p>
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
