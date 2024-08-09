@@ -32,10 +32,10 @@ header {
 }
 
 header .logo {
-    max-width: 500px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+    max-width: 350px; /* Ajuste o tamanho máximo da imagem conforme necessário */
     height: auto; /* Mantém a proporção da imagem */
     display: block;
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin: -1; /* Centraliza a imagem horizontalmente */
 }
 
 nav ul {
